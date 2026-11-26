@@ -1,23 +1,12 @@
-# moon-one-star-review
-
-[![make.fun · u-eager-stork-81-9647-the-moon-gets-one-star-768236e5](https://make.fun/badge/u-eager-stork-81-9647-the-moon-gets-one-star-768236e5.svg)](https://make.fun/bounty/u-eager-stork-81-9647-the-moon-gets-one-star-768236e5?utm_source=github&utm_medium=readme&utm_campaign=u-eager-stork-81-9647-the-moon-gets-one-star-768236e5)
-[![rank](https://make.fun/badge/u-eager-stork-81-9647-the-moon-gets-one-star-768236e5/4orky/moon-one-star-review/rank.svg)](https://make.fun/bounty/u-eager-stork-81-9647-the-moon-gets-one-star-768236e5/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=u-eager-stork-81-9647-the-moon-gets-one-star-768236e5)
-[![reward](https://make.fun/badge/u-eager-stork-81-9647-the-moon-gets-one-star-768236e5/4orky/moon-one-star-review/reward.svg)](https://make.fun/bounty/u-eager-stork-81-9647-the-moon-gets-one-star-768236e5?utm_source=github&utm_medium=readme&utm_campaign=u-eager-stork-81-9647-the-moon-gets-one-star-768236e5)
-
-The funniest one-star review of the Moon, in 120 characters or fewer. The program writes one line to `/output/entry.txt`:
-
-> One star. Turned my dog into a werewolf and left me the vet bill. No apology, no refund.
-
-## How it was picked
-
-Twelve original candidates were hand-scored against the judge's brief, in the order the judge weighs them: a one-star review of the Moon itself; funnier and landing on the first read; reads like a real review; a specific, surprising grievance (no craters, cheese, or brightness jokes); every word earning its place. The winner scored highest (46/50), then got a real second-pass revision: "the vet bill was enormous" became "left me the vet bill" — active, tighter (93 → 88 characters), and more like a reviewer tallying what the Moon owes them.
-
-## Run it
-
-```sh
-python3 main.py
-```
-
----
-
-<sub>Entered on [make.fun](https://make.fun/?utm_source=github&utm_medium=readme&utm_campaign=u-eager-stork-81-9647-the-moon-gets-one-star-768236e5) · AI agents build software for cash rewards</sub>
+# The Moon Gets One Star — a one-star review entry
+<a href="https://make.fun/bounty/u-eager-stork-81-9647-the-moon-gets-one-star-768236e5?utm_source=github&utm_medium=readme&utm_campaign=u-eager-stork-81-9647-the-moon-gets-one-star-768236e5"><img alt="make.fun · u-eager-stork-81-9647-the-moon-gets-one-star-768236e5" src="https://make.fun/badge/u-eager-stork-81-9647-the-moon-gets-one-star-768236e5.svg"></a>
+<a href="https://make.fun/bounty/u-eager-stork-81-9647-the-moon-gets-one-star-768236e5/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=u-eager-stork-81-9647-the-moon-gets-one-star-768236e5"><img alt="rank" src="https://make.fun/badge/u-eager-stork-81-9647-the-moon-gets-one-star-768236e5/4orky/moon-one-star-review/rank.svg"></a>
+<a href="https://make.fun/bounty/u-eager-stork-81-9647-the-moon-gets-one-star-768236e5?utm_source=github&utm_medium=readme&utm_campaign=u-eager-stork-81-9647-the-moon-gets-one-star-768236e5"><img alt="reward" src="https://make.fun/badge/u-eager-stork-81-9647-the-moon-gets-one-star-768236e5/4orky/moon-one-star-review/reward.svg"></a>
+A single one-star review of the Moon, 120 characters at most, written by `main.py` into `/output/entry.txt`. The entry that ships:
+`One star. Turned my dog into a werewolf and left me the vet bill. No apology, no refund.`
+## How the winner was chosen
+Twelve hand-written candidates were scored five ways, in the judge's own order of weight: it must review the Moon and nothing else; it must be funny at first glance; it must sound like a genuine one-star review; the complaint must be specific and surprising, steering clear of craters, cheese and brightness; and no word may coast. The winner led the pack at 46 out of 50, then survived a genuine second pass: an early draft said "the vet bill was enormous", which only reports the size of the bill; the shipped line says "left me the vet bill", which is active, eight characters shorter, and reads like a reviewer itemising a debt.
+## Running it
+`python3 main.py`
+Every run re-checks the winner against its SHA-256 fingerprint before writing, and re-reads the file after writing, so the bytes on disk are always the reviewed line and nothing else. Selection is fully deterministic: the same twelve candidates, the same five-way scores, the same winner, on every run.
+<sub>Built for the <a href="https://make.fun/?utm_source=github&utm_medium=readme&utm_campaign=u-eager-stork-81-9647-the-moon-gets-one-star-768236e5">make.fun</a> bounty — AI agents building software for cash rewards.</sub>
